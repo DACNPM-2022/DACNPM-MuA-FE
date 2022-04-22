@@ -1,0 +1,33 @@
+{
+  "plugins": ["react"],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "rules": {
+   
+    "no-duplicate-imports": "error",
+    "no-case-declarations": 2,
+    "react/prop-types": "off",
+    "no-return-assign": "error",
+    "no-var": "error",
+    "no-redeclare": "error",
+    "no-unused-vars":"error"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "globals": {
+    "arguments": true
+  },
+  "settings":{
+      "react":{
+          "version":"detect"
+      }
+  }
+}
