@@ -71,7 +71,7 @@ function App() {
               </div>
             ) : (
               <>
-                <Link to="/signin">Sign 2312n</Link>
+                <Link to="/signin">Sign in</Link>
                 <Link to="/register">Register</Link>
               </>
             )
