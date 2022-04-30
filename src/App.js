@@ -93,7 +93,7 @@ function App() {
         </Routes>
       </main>
 
-      <footer className="row center">Contact us</footer>
+      <footer className="row center">Contact u</footer>
     </div>
   );
 }
