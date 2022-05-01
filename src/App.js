@@ -50,7 +50,7 @@ function App() {
           <Link to="/cart">
             Cart
             {cartItems.length > 0 && (
-              <span className="badge">{cartItems.length<</span>
+              <span className="badge">{cartItems.length}</span>
             )}
           </Link>
           {
